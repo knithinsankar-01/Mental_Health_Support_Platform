@@ -1,0 +1,345 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MENTAL HEALTH SUPPORT PLATFORM</title>
+  
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
+    <link rel="icon" type="image/png" sizes="32x32" href="img/favicon.png">
+    <!-- Redirect to chat page on chat button click -->
+</head> 
+<body>
+    
+
+
+    <nav class="navbar glass" style="height: 70px;">
+        <span style="padding-top: 45px;"><a href="#home"><img class="img2"src="img/favicon.png" width="35"
+            style="margin: -25px -20px"><h1 class="logo">MENTAL HEALTH SUPPORT </h1></a></span>
+        <ul class="nav-links">
+            <li><a href="#home" id="pri" class="active cir_border">Home</a></li>
+            <li><a href="#videos"  id="sec" class="cir_border">Videos</a></li>
+            <li><a href="#peer" id="tri" class="cir_border">Peer groups</a></li>
+            <li><a href="#yog" id="quad" class="cir_border">Yoga </a></li>
+            <li><a href="#reading" id="quint" class="cir_border">Reading</a></li>
+            <li><a href="#contact" id="hex" class="cir_border">Contact us</a></li>
+            <li><div>
+                <input type="checkbox" class="checkbox dark" id="checkbox">
+              <label for="checkbox" class="label">
+                <i class="fa fa-moon-o"></i>
+                <i class='fa fa-sun-o'></i>
+                <div class='ball'>
+              </label>
+            </div></li>
+        </ul>
+        <img src="./img/menu-btn.png" alt="" class="menu-btn">
+    </nav>
+    
+
+    <header id="home">
+        <div class="header-content">
+            <h2  id="quote">MIND YOUR MENTAL STRENGTH</h2>
+            <div class="line"></div>
+            <h1 >A Supporting Platform </h1>
+            <a href="chat.php" class="chat-btn" id="chat-btn">WANT TO CHAT</a>
+        </div>
+    </header>
+
+   
+
+
+    <section class="videos" id="videos">
+        <div class="container">
+        <div class="title">
+            <h1 class="dark">Motivational videos</h1>
+            <h2 id="quote">WATCH  'n'  MOTIVATE </h2>
+            <p>Here are some motivational videos to help you through tough times.</p>
+            <div class="line"></div>
+        </div>
+        <h2>Depression and Anxiety</h2>
+        <div class="video-grid">
+			<div class="video-container">
+                <video height="300" width="380" controls poster="./img/mv9.png">
+                    <source src="./img/mvv9.mp4" type="video/mp4">
+                </video>
+                <video height="300" width="380" controls poster="./img/mv11.png">
+                    <source src="./img/mvv11.mp4" type="video/mp4">
+                </video>
+                <video height="300" width="380" controls poster="./img/mv12.png">
+                    <source src="./img/mvv5.mp4" type="video/mp4">
+                </video>
+                <video height="300" width="380" controls poster="./img/mv4.png">
+                    <source src="./img/mvv4.mp4" type="video/mp4">
+                </video>
+                <video height="300" width="380" controls poster="./img/mv5.png">
+                    <source src="./img/mvv5.mp4" type="video/mp4">
+                </video>
+                <video height="300" width="380" controls poster="./img/mv6.png">
+                    <source src="./img/mvv6.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+        <h2>Loneliness and Mentality</h2>
+        <div class="video-grid">
+			<div class="video-container">
+                <video height="300" width="380" controls poster="./img/mv1.png">
+                    <source src="./img/mvv1.mp4" type="video/mp4">
+                </video>
+                <video height="300" width="380" controls poster="./img/mv2.png">
+                    <source src="./img/mvv2.mp4" type="video/mp4">
+                </video>
+                <video height="300" width="380" controls poster="./img/mv3.png">
+                    <source src="./img/mvv3.mp4" type="video/mp4">
+                </video>
+                <video height="300" width="380" controls poster="./img/mv7.png">
+                    <source src="./img/mvv7.mp4" type="video/mp4">
+                </video>
+                <video height="300" width="380" controls poster="./img/mv8.png">
+                    <source src="./img/mvv8.mp4" type="video/mp4">
+                </video>
+                <video height="300" width="380" controls poster="./img/mv10.png">
+                    <source src="./img/mvv10.mp4" type="video/mp4">
+                </video>
+            </div>
+        </div>
+    </section>
+   
+
+   
+    <section class="peer" id="peer">
+        <div class="peer-content">
+            <h1>JOIN PEER GROUPS</h1>
+            <h2><b>Join one of our peer support groups to connect with others who understand what you're going through.</b></h2>
+         <div class="line"></div>
+            <p><i>“Don't be ashamed of your story it will inspire others.”</i></p>
+            
+            <p href="#" class="font-color"><b>Depression Support Group</b></p>
+            <a href="#" onclick="joinWhatsAppGroup1()" class="jtn">join</a>
+           
+            <p href="#" class="font-color"><b>Anxiety Support Group</b></p>
+            <a href="#" onclick="joinWhatsAppGroup2()" class="jtn">join </a>
+            
+            <p href="#" class="font-color"><b>Loneliness Support Group</b></p>
+            <a href="#" onclick="joinWhatsAppGroup3()" class="jtn">join</a>
+            
+        </div>
+    </section>
+ 
+
+
+
+
+    <section class="Quotes">
+        <div class="container row">
+            <div class="col content-col">
+                <h1 class="font-color">QUOTES</h1>
+                <div class="line"></div>
+                <p>Never say NO, Never say, 'I cannot', for you are INFINITE. All the power is WITHIN you. You can do anything.</p> 
+                       <p><i>--------SWAMI VIVEKANANDA</i></p> 
+                       <br>  
+                       <div class="line"></div>   
+                   <p>Everything comes to us that belongs to us if we create the capacity to receive it.</p>
+                <p><i>-------RABINDRANATH TAGORE</i></p>
+              
+            </div>
+            <div class="image-col">
+                <div class="image-gallery">
+                    <img src="./img/img5.png" alt="">
+                    <img src="./img/img4.png" alt="">
+                    <img src="./img/img3.png" alt="">
+                    <img src="./img/img6.png" alt="">
+                </div>
+            </div>
+        </div>
+    </section>
+    
+
+
+
+    <section id="yog">
+        <div class="title">
+            <h1 class="font-color">YOGA 'n' MEDITATION</h1>
+            <div class="line"></div>
+        </div>
+        <div id="yoga">
+            <br>
+            <h2 style="color:rgb(188, 20, 37);font-size:30px;">___YOGA VIDEOS TO DO DAILY___</h2>
+            <div class="video-grid">
+                
+                    <video height="300" width="380" controls poster="./img/y11.jpg">
+                        <source src="./img/y1.mp4" type="video/mp4">
+                    </video>
+                    <video height="300" width="380" controls poster="./img/y12.jpg">
+                        <source src="./img/y2.mp4" type="video/mp4">
+                    </video>
+                    <video height="300" width="380" controls poster="./img/y13.jpg">
+                        <source src="./img/y3.mp4" type="video/mp4">
+                    </video>
+             </div>
+             <br>
+             <br>
+             <h2 style="color:rgb(164, 17, 17);font: size 27px;">Depression and Anxiety</h2>
+             <div class="video-grid">
+                 <div class="video-container">
+                     <video height="300" width="380" controls poster="./img/mv13.png">
+                         <source src="./img/mvv13.mp4" type="video/mp4">
+                     </video>
+                     <video height="300" width="380" controls poster="./img/mv14.png">
+                         <source src="./img/mvv14.mp4" type="video/mp4">
+                     </video>
+                     <video height="300" width="380" controls poster="./img/mv15.png">
+                         <source src="./img/mvv15.mp4" type="video/mp4">
+                     </video>
+                     <video height="300" width="380" controls poster="./img/mv16.png">
+                         <source src="./img/mvv16.mp4" type="video/mp4">
+                     </video>
+                     <video height="300" width="380" controls poster="./img/mv17.png">
+                         <source src="./img/mvv17.mp4" type="video/mp4">
+                     </video>
+                     <video height="300" width="380" controls poster="./img/mv18.png">
+                         <source src="./img/mvv18.mp4" type="video/mp4">
+                     </video>
+                 </div>
+             </div>
+        </div>
+    </section>
+     
+
+
+
+
+
+
+    <div class="title">
+        <h1 class="font-color">READING</h1>
+        <div class="line"></div>
+    </div>
+    <section class="reading" id="reading">
+        <section class="articles">
+            <h1 style="font-size:17;text-align:centre;">Articles and Books</h1>
+            <p>Here are some helpful articles and books to support your mental health.</p>
+           <br>
+           
+           <h2>Articles:</h2>
+           <p><b>click on article to read</b></p>
+           <div class="image-grids">
+            <a href="https://www.medicalnewstoday.com/articles/8933"><img src="./img/a1.jpg"></a>
+            <br>
+            <a href="https://psychcentral.com/depression/strategies-for-overcoming-depression"><img src="./img/a2.jpg"></a>
+            <br>
+            <a href="https://positivepsychology.com/mentally-strong/"><img src="./img/a3.jpg"></a>
+           <br> 
+            <a href=" https://www.psychologytoday.com/us/basics/loneliness"><img src="./img/a4.jpg"></a>
+            <br>
+            <a href="https://www.verywellmind.com/protect-your-mental-health-during-quarantine-4799766"><img src="./img/a5.jpg"></a>
+            <br>
+            <a href="https://www.healthline.com/health/how-to-calm-anxiety"><img src="./img/a6.jpg"></a>
+            <br>
+             <br>
+            <br><br>
+           </div>
+           <hr><hr>
+
+
+                <h2>BOOKS:</h2>
+                <br><br>
+            <div class="book-grid">    
+                <div class="book">
+                    <a href="./img/b11.pdf"><img src="./img/b1.jpg" /> </a>
+                </div>
+                <div class="book">
+                    <a href="./img/b12.pdf"><img src="./img/b2.jpg" alt="article image"></a>
+                </div>
+                <div class="book">
+                    <a href="./img/b13.pdf"><img src="./img/b3.jpg" alt="article image"></a>
+       
+                </div>
+                </div>
+            </div>
+    </section>
+    
+            
+       
+    
+
+
+  
+    <section id="contact">
+        <div class="title">
+            <h1 class="font-color">REVIEW AND FEEDBACK</h1>
+            <div class="line"></div>
+        </div>
+        <div class="contact_us">
+            <form class="cform" action="submit-form.php" method="post">
+                <div class="crow-message">
+                    <h1 class="color">Send us a message or suggestion</h1>
+                    <div></div>
+                </div>
+                <div class="crow-in">
+                        <input type="text" id="name" name="name" placeholder="Your name">
+                        <input type="text" id="email" name="email" placeholder="Your Email id">
+                </div>
+                <div class="crow">
+                    <div class="ccol-left">
+                        <select name="country" id="country">
+                            <option value="India">India</option>
+                            <option value="Russia">Russia</option>
+                            <option value="usa">USA</option>
+                            
+                        </select>
+                    </div>
+                </div>
+                <div class="crow">
+                    <div class="ccol-left">
+                        <textarea type="text" id="remarks" name="remarks" placeholder="Your Remarks/suggestions....." style="height: 150px;"></textarea>
+                    </div>
+                </div>
+                <input class="crow-s" type="submit" value="Submit">
+                <form action="review-display.php">
+                    
+                    <a href="review-display.php" class="reviews-btn" id="reviews-btn">Reviews</a>
+                  </form>
+                  
+            </form>
+            <div class="cbox">
+                <div>
+                    <p class="cbox-message">Prefer some other way ?<br>Reach us by using the details given below</p>
+                <div class="cbox-line"></div>
+                </div>
+                <div class="c_boxx">
+                    <a href="mailto:abc@gmail.com"><i class="fa fa-envelope"></i>
+                        Mail: knithinsankar@gmail.com
+                    </a>
+                </div>
+                <div class="c_boxx">
+                    <a href="tel:+91-12345-67890"><i class="fa fa-phone"></i>
+                        Phone: (+91) 12345-67890
+                    </a>
+                </div>
+                <div class="c_boxx">
+                    <a href="#"><i class="fa fa-map-marker"></i>
+                        Location: Tadepalligudem,Andhra Pradesh,India.
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- up scroll -->
+    <i class="fa fa-chevron-up" onclick="topFunction()" id="upbtn"></i>
+    <!-- end -->
+   
+    <section class="footer">
+        <span>MENTAL HEALTH SUPPORT PLATFORM.</span>
+    
+    </section>
+    
+    
+
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

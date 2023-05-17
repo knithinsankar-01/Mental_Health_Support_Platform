@@ -1,0 +1,91 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;800&family=Parisienne&family=Roboto&family=Teko:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap");
+
+
+
+
+body {
+  width: 100vw;
+  height: 100vh;
+  background-image: url("../img/bg.jpg");
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+  justify-content: center;
+}
+
+.container {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  background-color: rgb(30, 27, 27);
+  color: rgb(245, 17, 17);
+  max-width: 75rem;
+  margin: 0.8rem auto;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 0px 10px rgba(249, 249, 249, 0.5);
+  align-items: center;
+
+ 
+}
+
+
+h1 {
+  margin-bottom: 20px;
+  font-family: var(--ff-montserrat);
+  font-size: 4vmin;
+  text-align: center;
+  color: #df0a0a;
+}
+
+
+label {
+  display: block;
+  margin-bottom:0.7rem;
+  font-size: var(--fs-paragraphs);
+  font-family: var(--ff-roboto);
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+  padding: 9px;
+  border-radius: 5px;
+  border: 10px;
+  width: 400px;
+  
+  margin-bottom: 20px;
+}
+
+button {
+  font-family: var(--ff-montserrat);
+  font-size: var(--fs-links-btns);
+  font-weight: 700;
+  padding: 13px 50px;
+  background: #fc036b;
+  border-radius: 30px;
+  color: whitesmoke;
+}
+
+button:hover {
+  background-color: rgb(241, 17, 17);
+}
+
+a {
+  margin-top: 10px;
+  text-align: center;
+  color: #ea1118;
+}
+
+.error {
+  margin-bottom: 20px;
+  color: #FF0000;
+  font-weight: bold;
+}

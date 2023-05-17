@@ -1,0 +1,96 @@
+@import url("https://fonts.googleapis.com/css2?family=Lora:wght@400;700&family=Montserrat:wght@400;800&family=Parisienne&family=Roboto&family=Teko:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Rubik+Dirt&display=swap");
+
+body {
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/bg.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+}
+
+.container {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background-color: rgb(21, 19, 19);
+    color: rgb(30, 15, 151);
+    max-width: 75rem;
+    margin: 0.8rem auto;
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 0px 10px rgba(249, 249, 249, 0.5);
+    backdrop-filter: blur(0.3rem);
+}
+
+h1 {
+    position: absolute;
+    top: 8rem;
+    left: 19rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 8vmin;
+    text-align:center;
+    color: #f62929;
+    z-index: 10;
+}
+
+p {
+    margin-bottom: 1.3rem;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 6vmin;
+    text-align: center;
+    color: #f9f3f2;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.7rem;
+    font-size: 1.5rem;
+    font-family: 'Roboto', sans-serif;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"] {
+    padding: 0.55rem;
+    border-radius: 0.3rem;
+    border: none;
+    width: 25rem;
+    margin-bottom: 1.25rem;
+}
+
+button {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.75rem 3rem;
+    background: #fc036b;
+    border-radius: 2rem;
+    color: whitesmoke;
+    border: none;
+}
+
+button:hover {
+    background-color: rgb(7, 183, 7);
+}
+
+a {
+    margin-top: 0.7rem;
+    text-align: center;
+    color: #eee1e1;
+}
+
+.error {
+    margin-bottom: 1.25rem;
+    color: #FF0000;
+    font-weight: bold;
+}
